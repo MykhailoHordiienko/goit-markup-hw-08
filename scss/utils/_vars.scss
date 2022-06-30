@@ -1,0 +1,20 @@
+:root {
+  --icon-color: #afb1b8;
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-background: #2f303a;
+  --teem-background: #f5f4fa;
+  --rgba: rgba(255, 255, 255, 0.6);
+  --main-white-color: #ffffff;
+  --part-logo: #000000;
+}
+
+body {
+  color: var(--primery-text-color);
+
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+}

@@ -1,0 +1,31 @@
+@import "./utils/vars";
+@import "./utils/resetStyles";
+@import "./utils/visuallyHidden";
+
+@import "./utils/mainConteiner";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/siteNav";
+@import "./components/headerContacts";
+
+@import "./components/hero";
+@import "./components/heroBtn";
+
+@import "./components/benefits";
+
+@import "./components/aboutCompani";
+
+@import "./components/teem";
+
+@import "./components/companys";
+
+@import "./components/footer";
+@import "./components/footerForm";
+@import "./components/footerBtn";
+
+@import "./components/portfolioFilter";
+@import "./components/portfolioPhoto";
+
+@import "./components/modal";
+@import "./components/modalForm";
+@import "./components/modalFormBtn";
