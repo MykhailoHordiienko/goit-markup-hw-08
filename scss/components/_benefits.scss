@@ -1,10 +1,9 @@
 .quality {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .aspect {
-  display: flex;
 }
 
 .aspect__icon {
@@ -14,21 +13,58 @@
   align-items: center;
   background-color: var(--teem-background);
   border-radius: 4px;
-  width: 270px;
+  max-width: 450px;
   height: 120px;
 }
 
 .aspect__item {
-  width: 270px;
   & + & {
-    margin-left: 30px;
+    margin-top: 30px;
   }
 }
 
 .aspect__title {
   margin-bottom: 10px;
+  text-align: center;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
+// .quality {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
+
+// .aspect {
+//   display: flex;
+// }
+
+// .aspect__icon {
+//   display: flex;
+//   margin-bottom: 30px;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: var(--teem-background);
+//   border-radius: 4px;
+//   width: 270px;
+//   height: 120px;
+// }
+
+// .aspect__item {
+//   width: 270px;
+//   & + & {
+//     margin-left: 30px;
+//   }
+// }
+
+// .aspect__title {
+//   margin-bottom: 10px;
+//   color: var(--title-text-color);
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+// }

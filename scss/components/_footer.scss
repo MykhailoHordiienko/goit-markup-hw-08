@@ -4,16 +4,18 @@
   padding-bottom: 60px;
   .conteiner {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 .footer-contact-conteiner {
-  margin-right: 70px;
+  text-align: center;
 }
 
 .address {
   color: var(--main-white-color);
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 
   font-size: 14px;
   line-height: 1.7;
@@ -22,7 +24,7 @@
 }
 
 .footer-contacts__item {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   &:last-child {
     margin-bottom: 0;
   }
@@ -41,13 +43,17 @@
   }
 }
 
+.footer-social {
+  margin: 60px 0 96px 0;
+}
+
 .footer-social__title {
   margin-bottom: 20px;
   color: var(--main-white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -81,3 +87,87 @@
     background-color: var(--accent-color);
   }
 }
+
+// .footer {
+//   background-color: var(--secondary-background);
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+//   .conteiner {
+//     display: flex;
+//   }
+// }
+
+// .footer-contact-conteiner {
+//   margin-right: 70px;
+// }
+
+// .address {
+//   color: var(--main-white-color);
+//   margin-bottom: 9px;
+
+//   font-size: 14px;
+//   line-height: 1.7;
+//   text-decoration: none;
+//   font-style: normal;
+// }
+
+// .footer-contacts__item {
+//   margin-bottom: 9px;
+//   &:last-child {
+//     margin-bottom: 0;
+//   }
+// }
+
+// .footer-contacts__contact {
+//   color: var(--rgba);
+
+//   font-size: 14px;
+//   line-height: 1.7;
+//   text-decoration: none;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-color);
+//   }
+// }
+
+// .footer-social__title {
+//   margin-bottom: 20px;
+//   color: var(--main-white-color);
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+// }
+
+// .social-footer {
+//   display: flex;
+//   &__icon {
+//     fill: var(--main-white-color);
+//   }
+// }
+
+// .social-footer__item {
+//   width: 44px;
+//   height: 44px;
+//   margin-right: 10px;
+//   &:last-child {
+//     margin-right: 0;
+//   }
+// }
+
+// .social-footer__link {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(255, 255, 255, 0.1);
+//   border-radius: 50%;
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     background-color: var(--accent-color);
+//   }
+// }
