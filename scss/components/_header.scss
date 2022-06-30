@@ -6,14 +6,3 @@
   display: flex;
   align-items: center;
 }
-
-.menu-mob-btn {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-
-  &:hover .mob-menu,
-  &:focus .mob-menu {
-    fill: var(--accent-color);
-  }
-}
