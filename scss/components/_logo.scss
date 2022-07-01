@@ -18,10 +18,23 @@
   &__part-footer {
     color: var(--main-white-color);
   }
+
+  @media screen and (min-width: 768px) {
+    & {
+      padding-top: 26px;
+      padding-bottom: 26px;
+    }
+  }
 }
 
 .header__logo {
   margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    & {
+      margin: 0;
+    }
+  }
 }
 
 .logo__footer {

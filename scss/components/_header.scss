@@ -4,6 +4,7 @@
 // }
 .header-div {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ececec;
   background-color: var(--main-white-color);
