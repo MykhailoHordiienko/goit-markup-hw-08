@@ -1,6 +1,10 @@
 .quality {
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .aspect {
@@ -8,6 +12,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
   }
 }
 
@@ -20,6 +29,9 @@
   border-radius: 4px;
   max-width: 450px;
   height: 120px;
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 
 .aspect__item {
@@ -33,6 +45,12 @@
     }
     width: calc((100% - 30px) / 2);
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    & + & {
+      margin-left: 30px;
+    }
+  }
 }
 
 .aspect__title {
@@ -44,39 +62,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    text-align: unset;
+  }
 }
-
-// .quality {
-//   padding-top: 94px;
-//   padding-bottom: 94px;
-// }
-
-// .aspect {
-//   display: flex;
-// }
-
-// .aspect__icon {
-//   display: flex;
-//   margin-bottom: 30px;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: var(--teem-background);
-//   border-radius: 4px;
-//   width: 270px;
-//   height: 120px;
-// }
-
-// .aspect__item {
-//   width: 270px;
-//   & + & {
-//     margin-left: 30px;
-//   }
-// }
-
-// .aspect__title {
-//   margin-bottom: 10px;
-//   color: var(--title-text-color);
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 1.14;
-// }
