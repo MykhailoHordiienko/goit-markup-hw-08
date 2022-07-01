@@ -661,7 +661,7 @@ img {
     margin: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .members-photo__item {
     width: 270px;
   }
